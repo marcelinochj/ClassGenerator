@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassGeneratorCore\ClassGeneratorCore.csproj">
+      <Project>{01a03d3d-c456-4ced-8096-9a8f069066c2}</Project>
+      <Name>ClassGeneratorCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
